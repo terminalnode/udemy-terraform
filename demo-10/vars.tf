@@ -1,5 +1,5 @@
 variable "AWS_PROFILE" {
-  type = string
+  type    = string
   default = "eu-west-1"
 }
 
