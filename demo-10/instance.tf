@@ -30,4 +30,3 @@ resource "aws_volume_attachment" "ebs-volume-1-attachment" {
   instance_id  = aws_instance.example.id
   skip_destroy = true                            # skip destroy to avoid issues with terraform destroy
 }
-
